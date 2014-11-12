@@ -1,0 +1,4 @@
+#!/bin/bash
+
+NBPART=$1
+cd "$NBPART"part

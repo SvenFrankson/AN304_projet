@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+  FILE* f = fopen("Mesh.Data");
+  int nb_elements;
+  fscanf(f, "%d", &nb_elements);
+}
